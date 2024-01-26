@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import expressionEngineImage from '../assets/settings3.png'; 
 
-const AboutSection = () => {
+const About = () => {
   return (
     <Container className="my-5">
       <Row className="align-items-center">
@@ -39,4 +39,4 @@ const AboutSection = () => {
   );
 };
 
-export default AboutSection;
+export default About;
